@@ -1,0 +1,82 @@
+DESCRIPTION: An Example Config
+GPU_NUM: 1
+RUNNER: <class 'baselines.STDAE.runner.pretrain_runner.PreTrainRunner'>
+RANDOM: 24517
+DATASET:
+  NAME: QiLin_5min
+  TYPE: <class 'basicts.data.simple_tsf_dataset.TimeSeriesForecastingDataset'>
+  PARAM:
+    dataset_name: QiLin_5min
+    train_val_test_ratio: [0.7391304347826086, 0.13043478260869565, 0.13043478260869565]
+    input_len: 288
+    output_len: 288
+SCALER:
+  TYPE: <class 'basicts.scaler.z_score_scaler.ZScoreScaler'>
+  PARAM:
+    dataset_name: QiLin_5min
+    train_ratio: 0.7391304347826086
+    selected_channel: [1, 2, 3, 4]
+    target_channel: [0]
+    norm_each_channel: True
+    rescale: False
+MODEL:
+  NAME: STDAE_TAE
+  ARCH: <class 'baselines.STDAE.arch.stdae.stdae.STDAE'>
+  PARAM:
+    patch_size: 24
+    in_channel: 4
+    embed_dim: 96
+    num_heads: 4
+    mlp_ratio: 4
+    dropout: 0.1
+    encoder_depth: 4
+    decoder_depth: 1
+    spatial: False
+    mode: pre-train
+  FORWARD_FEATURES: [1, 2, 3, 4]
+  TARGET_FEATURES: [0]
+METRICS:
+  FUNCS:
+    MAE: masked_mae
+    MAPE: masked_mape
+    RMSE: masked_rmse
+  TARGET: MAE
+  NULL_VAL: 0.0
+TRAIN:
+  NUM_EPOCHS: 100
+  CKPT_SAVE_DIR: baselines/STDAE/pretrain_save/STDAE_TAE/QiLin_5min_100_288_288_history_turn_reconstruct
+  LOSS: masked_mae
+  OPTIM:
+    TYPE: Adam
+    PARAM:
+      lr: 0.0005
+      weight_decay: 0
+      eps: 1e-08
+      betas: (0.9, 0.95)
+  LR_SCHEDULER:
+    TYPE: MultiStepLR
+    PARAM:
+      milestones: [25, 50, 75]
+      gamma: 0.5
+  DATA:
+    BATCH_SIZE: 64
+    SHUFFLE: True
+    NUM_WORKERS: 10
+    PIN_MEMORY: True
+  CLIP_GRAD_PARAM:
+    max_norm: 5.0
+VAL:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 32
+    NUM_WORKERS: 10
+    PIN_MEMORY: True
+TEST:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 32
+    NUM_WORKERS: 10
+    PIN_MEMORY: True
+EVAL:
+  USE_GPU: True
+MD5: 3200d8417d3f07b3e53bfc4b5dd144a0

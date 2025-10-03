@@ -1,0 +1,791 @@
+2025-09-13 15:21:16,729 - easytorch-training - INFO - Initializing training.
+2025-09-13 15:21:16,729 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-09-13 15:21:16,729 - easytorch-training - INFO - Building training data loader.
+2025-09-13 15:21:16,731 - easytorch-training - INFO - Train dataset length: 4321
+2025-09-13 15:21:17,663 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.95)
+    capturable: False
+    decoupled_weight_decay: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0005
+    maximize: False
+    weight_decay: 0
+)
+2025-09-13 15:21:17,663 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x14bf2e3fca40>
+2025-09-13 15:21:17,665 - easytorch-training - INFO - Initializing validation.
+2025-09-13 15:21:17,665 - easytorch-training - INFO - Building val data loader.
+2025-09-13 15:21:17,665 - easytorch-training - INFO - Validation dataset length: 289
+2025-09-13 15:21:17,666 - easytorch-training - INFO - Test dataset length: 289
+2025-09-13 15:21:17,666 - easytorch-training - INFO - Number of parameters: 574764
+2025-09-13 15:21:17,666 - easytorch-training - INFO - Epoch 1 / 100
+2025-09-13 15:21:19,980 - easytorch-training - INFO - Result <train>: [train/time: 2.31 (s), train/lr: 5.00e-04, train/loss: 0.4418, train/MAE: 0.4418, train/MAPE: 1.5656, train/RMSE: 0.6048]
+2025-09-13 15:21:19,980 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:20,325 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.2767, val/MAE: 0.2767, val/MAPE: 1.3686, val/RMSE: 0.3888]
+2025-09-13 15:21:20,344 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:20,641 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.3115, test/MAPE: 2.2168, test/RMSE: 0.4306]
+2025-09-13 15:21:20,659 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_001.pt saved
+2025-09-13 15:21:20,659 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:26:16
+2025-09-13 15:21:20,659 - easytorch-training - INFO - Epoch 2 / 100
+2025-09-13 15:21:22,293 - easytorch-training - INFO - Result <train>: [train/time: 1.63 (s), train/lr: 5.00e-04, train/loss: 0.2901, train/MAE: 0.2901, train/MAPE: 1.1515, train/RMSE: 0.4318]
+2025-09-13 15:21:22,294 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:22,560 - easytorch-training - INFO - Result <val>: [val/time: 0.27 (s), val/loss: 0.2245, val/MAE: 0.2245, val/MAPE: 1.0195, val/RMSE: 0.3253]
+2025-09-13 15:21:22,577 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:22,854 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.2507, test/MAPE: 1.8074, test/RMSE: 0.3543]
+2025-09-13 15:21:22,871 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_002.pt saved
+2025-09-13 15:21:22,871 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:37
+2025-09-13 15:21:22,871 - easytorch-training - INFO - Epoch 3 / 100
+2025-09-13 15:21:24,515 - easytorch-training - INFO - Result <train>: [train/time: 1.64 (s), train/lr: 5.00e-04, train/loss: 0.2419, train/MAE: 0.2419, train/MAPE: 0.9109, train/RMSE: 0.3620]
+2025-09-13 15:21:24,516 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:24,830 - easytorch-training - INFO - Result <val>: [val/time: 0.31 (s), val/loss: 0.1715, val/MAE: 0.1715, val/MAPE: 0.7834, val/RMSE: 0.2429]
+2025-09-13 15:21:24,847 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:25,134 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.1872, test/MAPE: 1.3800, test/RMSE: 0.2608]
+2025-09-13 15:21:25,153 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_003.pt saved
+2025-09-13 15:21:25,153 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:27
+2025-09-13 15:21:25,153 - easytorch-training - INFO - Epoch 4 / 100
+2025-09-13 15:21:26,776 - easytorch-training - INFO - Result <train>: [train/time: 1.62 (s), train/lr: 5.00e-04, train/loss: 0.1857, train/MAE: 0.1857, train/MAPE: 0.6717, train/RMSE: 0.2759]
+2025-09-13 15:21:26,776 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:27,069 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.1178, val/MAE: 0.1178, val/MAPE: 0.5281, val/RMSE: 0.1582]
+2025-09-13 15:21:27,086 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:27,381 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.1257, test/MAPE: 0.9058, test/RMSE: 0.1700]
+2025-09-13 15:21:27,399 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_004.pt saved
+2025-09-13 15:21:27,399 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:20
+2025-09-13 15:21:27,399 - easytorch-training - INFO - Epoch 5 / 100
+2025-09-13 15:21:28,992 - easytorch-training - INFO - Result <train>: [train/time: 1.59 (s), train/lr: 5.00e-04, train/loss: 0.1395, train/MAE: 0.1395, train/MAPE: 0.4918, train/RMSE: 0.2090]
+2025-09-13 15:21:28,992 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:29,281 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0783, val/MAE: 0.0783, val/MAPE: 0.3551, val/RMSE: 0.1029]
+2025-09-13 15:21:29,299 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:29,584 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0824, test/MAPE: 0.5796, test/RMSE: 0.1099]
+2025-09-13 15:21:29,602 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_005.pt saved
+2025-09-13 15:21:29,602 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:21:29,602 - easytorch-training - INFO - Epoch 6 / 100
+2025-09-13 15:21:31,239 - easytorch-training - INFO - Result <train>: [train/time: 1.64 (s), train/lr: 5.00e-04, train/loss: 0.1103, train/MAE: 0.1103, train/MAPE: 0.3817, train/RMSE: 0.1679]
+2025-09-13 15:21:31,239 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:31,531 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0586, val/MAE: 0.0586, val/MAPE: 0.2673, val/RMSE: 0.0766]
+2025-09-13 15:21:31,548 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:31,850 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0610, test/MAPE: 0.4293, test/RMSE: 0.0808]
+2025-09-13 15:21:31,867 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_006.pt saved
+2025-09-13 15:21:31,868 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:21:31,868 - easytorch-training - INFO - Epoch 7 / 100
+2025-09-13 15:21:33,517 - easytorch-training - INFO - Result <train>: [train/time: 1.65 (s), train/lr: 5.00e-04, train/loss: 0.0924, train/MAE: 0.0924, train/MAPE: 0.3151, train/RMSE: 0.1428]
+2025-09-13 15:21:33,518 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:33,788 - easytorch-training - INFO - Result <val>: [val/time: 0.27 (s), val/loss: 0.0479, val/MAE: 0.0479, val/MAPE: 0.2253, val/RMSE: 0.0622]
+2025-09-13 15:21:33,806 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:34,111 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0501, test/MAPE: 0.3543, test/RMSE: 0.0656]
+2025-09-13 15:21:34,128 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_007.pt saved
+2025-09-13 15:21:34,128 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:21:34,128 - easytorch-training - INFO - Epoch 8 / 100
+2025-09-13 15:21:35,800 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 5.00e-04, train/loss: 0.0802, train/MAE: 0.0802, train/MAPE: 0.2723, train/RMSE: 0.1252]
+2025-09-13 15:21:35,801 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:36,149 - easytorch-training - INFO - Result <val>: [val/time: 0.35 (s), val/loss: 0.0392, val/MAE: 0.0392, val/MAPE: 0.1813, val/RMSE: 0.0513]
+2025-09-13 15:21:36,166 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:36,477 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0408, test/MAPE: 0.2830, test/RMSE: 0.0537]
+2025-09-13 15:21:36,494 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_008.pt saved
+2025-09-13 15:21:36,494 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:21:36,494 - easytorch-training - INFO - Epoch 9 / 100
+2025-09-13 15:21:38,118 - easytorch-training - INFO - Result <train>: [train/time: 1.62 (s), train/lr: 5.00e-04, train/loss: 0.0715, train/MAE: 0.0715, train/MAPE: 0.2415, train/RMSE: 0.1123]
+2025-09-13 15:21:38,119 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:38,397 - easytorch-training - INFO - Result <val>: [val/time: 0.28 (s), val/loss: 0.0341, val/MAE: 0.0341, val/MAPE: 0.1543, val/RMSE: 0.0446]
+2025-09-13 15:21:38,414 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:38,729 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0355, test/MAPE: 0.2403, test/RMSE: 0.0467]
+2025-09-13 15:21:38,747 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_009.pt saved
+2025-09-13 15:21:38,747 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:21:38,747 - easytorch-training - INFO - Epoch 10 / 100
+2025-09-13 15:21:40,388 - easytorch-training - INFO - Result <train>: [train/time: 1.64 (s), train/lr: 5.00e-04, train/loss: 0.0644, train/MAE: 0.0644, train/MAPE: 0.2163, train/RMSE: 0.1019]
+2025-09-13 15:21:40,389 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:40,680 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0304, val/MAE: 0.0304, val/MAPE: 0.1380, val/RMSE: 0.0397]
+2025-09-13 15:21:40,697 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:41,005 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0317, test/MAPE: 0.2170, test/RMSE: 0.0416]
+2025-09-13 15:21:41,022 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_010.pt saved
+2025-09-13 15:21:41,024 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:21:41,024 - easytorch-training - INFO - Epoch 11 / 100
+2025-09-13 15:21:42,671 - easytorch-training - INFO - Result <train>: [train/time: 1.65 (s), train/lr: 5.00e-04, train/loss: 0.0591, train/MAE: 0.0591, train/MAPE: 0.1977, train/RMSE: 0.0939]
+2025-09-13 15:21:42,672 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:42,974 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0299, val/MAE: 0.0299, val/MAPE: 0.1375, val/RMSE: 0.0385]
+2025-09-13 15:21:42,991 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:43,329 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0315, test/MAPE: 0.2193, test/RMSE: 0.0407]
+2025-09-13 15:21:43,346 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_011.pt saved
+2025-09-13 15:21:43,346 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:21:43,346 - easytorch-training - INFO - Epoch 12 / 100
+2025-09-13 15:21:44,936 - easytorch-training - INFO - Result <train>: [train/time: 1.59 (s), train/lr: 5.00e-04, train/loss: 0.0544, train/MAE: 0.0544, train/MAPE: 0.1814, train/RMSE: 0.0868]
+2025-09-13 15:21:44,936 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:45,257 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0258, val/MAE: 0.0258, val/MAPE: 0.1169, val/RMSE: 0.0335]
+2025-09-13 15:21:45,276 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:45,580 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0272, test/MAPE: 0.1860, test/RMSE: 0.0354]
+2025-09-13 15:21:45,597 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_012.pt saved
+2025-09-13 15:21:45,597 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:21:45,597 - easytorch-training - INFO - Epoch 13 / 100
+2025-09-13 15:21:47,219 - easytorch-training - INFO - Result <train>: [train/time: 1.62 (s), train/lr: 5.00e-04, train/loss: 0.0506, train/MAE: 0.0506, train/MAPE: 0.1682, train/RMSE: 0.0808]
+2025-09-13 15:21:47,220 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:47,549 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0239, val/MAE: 0.0239, val/MAPE: 0.1075, val/RMSE: 0.0310]
+2025-09-13 15:21:47,566 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:47,846 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0252, test/MAPE: 0.1767, test/RMSE: 0.0328]
+2025-09-13 15:21:47,863 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_013.pt saved
+2025-09-13 15:21:47,863 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:21:47,863 - easytorch-training - INFO - Epoch 14 / 100
+2025-09-13 15:21:49,421 - easytorch-training - INFO - Result <train>: [train/time: 1.56 (s), train/lr: 5.00e-04, train/loss: 0.0471, train/MAE: 0.0471, train/MAPE: 0.1564, train/RMSE: 0.0754]
+2025-09-13 15:21:49,422 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:49,725 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0226, val/MAE: 0.0226, val/MAPE: 0.0981, val/RMSE: 0.0295]
+2025-09-13 15:21:49,743 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:50,032 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.0238, test/MAPE: 0.1537, test/RMSE: 0.0313]
+2025-09-13 15:21:50,049 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_014.pt saved
+2025-09-13 15:21:50,049 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:08
+2025-09-13 15:21:50,049 - easytorch-training - INFO - Epoch 15 / 100
+2025-09-13 15:21:51,617 - easytorch-training - INFO - Result <train>: [train/time: 1.57 (s), train/lr: 5.00e-04, train/loss: 0.0444, train/MAE: 0.0444, train/MAPE: 0.1464, train/RMSE: 0.0710]
+2025-09-13 15:21:51,618 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:51,945 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0223, val/MAE: 0.0223, val/MAPE: 0.0987, val/RMSE: 0.0289]
+2025-09-13 15:21:51,963 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:52,254 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.0233, test/MAPE: 0.1519, test/RMSE: 0.0305]
+2025-09-13 15:21:52,271 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_015.pt saved
+2025-09-13 15:21:52,272 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:08
+2025-09-13 15:21:52,272 - easytorch-training - INFO - Epoch 16 / 100
+2025-09-13 15:21:53,971 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 5.00e-04, train/loss: 0.0419, train/MAE: 0.0419, train/MAPE: 0.1384, train/RMSE: 0.0671]
+2025-09-13 15:21:53,972 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:54,296 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0188, val/MAE: 0.0188, val/MAPE: 0.0845, val/RMSE: 0.0244]
+2025-09-13 15:21:54,314 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:54,599 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0199, test/MAPE: 0.1392, test/RMSE: 0.0259]
+2025-09-13 15:21:54,617 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_016.pt saved
+2025-09-13 15:21:54,617 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:08
+2025-09-13 15:21:54,617 - easytorch-training - INFO - Epoch 17 / 100
+2025-09-13 15:21:56,255 - easytorch-training - INFO - Result <train>: [train/time: 1.64 (s), train/lr: 5.00e-04, train/loss: 0.0395, train/MAE: 0.0395, train/MAPE: 0.1295, train/RMSE: 0.0633]
+2025-09-13 15:21:56,256 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:56,597 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0207, val/MAE: 0.0207, val/MAPE: 0.0894, val/RMSE: 0.0263]
+2025-09-13 15:21:56,912 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0219, test/MAPE: 0.1444, test/RMSE: 0.0278]
+2025-09-13 15:21:56,930 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_017.pt saved
+2025-09-13 15:21:56,930 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:08
+2025-09-13 15:21:56,930 - easytorch-training - INFO - Epoch 18 / 100
+2025-09-13 15:21:58,583 - easytorch-training - INFO - Result <train>: [train/time: 1.65 (s), train/lr: 5.00e-04, train/loss: 0.0376, train/MAE: 0.0376, train/MAPE: 0.1232, train/RMSE: 0.0602]
+2025-09-13 15:21:58,583 - easytorch-training - INFO - Start validation.
+2025-09-13 15:21:59,003 - easytorch-training - INFO - Result <val>: [val/time: 0.42 (s), val/loss: 0.0181, val/MAE: 0.0181, val/MAPE: 0.0808, val/RMSE: 0.0232]
+2025-09-13 15:21:59,021 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:21:59,343 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0191, test/MAPE: 0.1278, test/RMSE: 0.0245]
+2025-09-13 15:21:59,361 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_018.pt saved
+2025-09-13 15:21:59,361 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:21:59,361 - easytorch-training - INFO - Epoch 19 / 100
+2025-09-13 15:22:01,031 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 5.00e-04, train/loss: 0.0357, train/MAE: 0.0357, train/MAPE: 0.1169, train/RMSE: 0.0572]
+2025-09-13 15:22:01,032 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:01,367 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0180, val/MAE: 0.0180, val/MAPE: 0.0802, val/RMSE: 0.0229]
+2025-09-13 15:22:01,384 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:01,693 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0187, test/MAPE: 0.1232, test/RMSE: 0.0238]
+2025-09-13 15:22:01,711 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_019.pt saved
+2025-09-13 15:22:01,712 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:01,712 - easytorch-training - INFO - Epoch 20 / 100
+2025-09-13 15:22:03,385 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 5.00e-04, train/loss: 0.0338, train/MAE: 0.0338, train/MAPE: 0.1104, train/RMSE: 0.0542]
+2025-09-13 15:22:03,386 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:03,718 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0155, val/MAE: 0.0155, val/MAPE: 0.0719, val/RMSE: 0.0200]
+2025-09-13 15:22:03,737 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:04,053 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0166, test/MAPE: 0.1164, test/RMSE: 0.0214]
+2025-09-13 15:22:04,071 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_020.pt saved
+2025-09-13 15:22:04,072 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:04,072 - easytorch-training - INFO - Epoch 21 / 100
+2025-09-13 15:22:05,776 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 5.00e-04, train/loss: 0.0328, train/MAE: 0.0328, train/MAPE: 0.1066, train/RMSE: 0.0523]
+2025-09-13 15:22:05,777 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:06,117 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0171, val/MAE: 0.0171, val/MAPE: 0.0772, val/RMSE: 0.0218]
+2025-09-13 15:22:06,399 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0181, test/MAPE: 0.1274, test/RMSE: 0.0231]
+2025-09-13 15:22:06,417 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_021.pt saved
+2025-09-13 15:22:06,417 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:06,417 - easytorch-training - INFO - Epoch 22 / 100
+2025-09-13 15:22:08,117 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 5.00e-04, train/loss: 0.0313, train/MAE: 0.0313, train/MAPE: 0.1013, train/RMSE: 0.0499]
+2025-09-13 15:22:08,117 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:08,453 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0152, val/MAE: 0.0152, val/MAPE: 0.0687, val/RMSE: 0.0195]
+2025-09-13 15:22:08,470 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:08,771 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0158, test/MAPE: 0.1039, test/RMSE: 0.0204]
+2025-09-13 15:22:08,788 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_022.pt saved
+2025-09-13 15:22:08,788 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:08,788 - easytorch-training - INFO - Epoch 23 / 100
+2025-09-13 15:22:10,556 - easytorch-training - INFO - Result <train>: [train/time: 1.77 (s), train/lr: 5.00e-04, train/loss: 0.0295, train/MAE: 0.0295, train/MAPE: 0.0961, train/RMSE: 0.0474]
+2025-09-13 15:22:10,557 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:10,841 - easytorch-training - INFO - Result <val>: [val/time: 0.28 (s), val/loss: 0.0144, val/MAE: 0.0144, val/MAPE: 0.0625, val/RMSE: 0.0184]
+2025-09-13 15:22:10,858 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:11,144 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.0152, test/MAPE: 0.0984, test/RMSE: 0.0193]
+2025-09-13 15:22:11,162 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_023.pt saved
+2025-09-13 15:22:11,162 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:11,162 - easytorch-training - INFO - Epoch 24 / 100
+2025-09-13 15:22:12,886 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 5.00e-04, train/loss: 0.0286, train/MAE: 0.0286, train/MAPE: 0.0920, train/RMSE: 0.0457]
+2025-09-13 15:22:12,887 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:13,184 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0138, val/MAE: 0.0138, val/MAPE: 0.0614, val/RMSE: 0.0175]
+2025-09-13 15:22:13,201 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:13,483 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0142, test/MAPE: 0.0903, test/RMSE: 0.0180]
+2025-09-13 15:22:13,501 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_024.pt saved
+2025-09-13 15:22:13,501 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:13,501 - easytorch-training - INFO - Epoch 25 / 100
+2025-09-13 15:22:15,211 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 5.00e-04, train/loss: 0.0274, train/MAE: 0.0274, train/MAPE: 0.0884, train/RMSE: 0.0438]
+2025-09-13 15:22:15,212 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:15,503 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0137, val/MAE: 0.0137, val/MAPE: 0.0609, val/RMSE: 0.0175]
+2025-09-13 15:22:15,520 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:15,824 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0142, test/MAPE: 0.0952, test/RMSE: 0.0182]
+2025-09-13 15:22:15,842 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_025.pt saved
+2025-09-13 15:22:15,842 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:15,842 - easytorch-training - INFO - Epoch 26 / 100
+2025-09-13 15:22:17,440 - easytorch-training - INFO - Result <train>: [train/time: 1.60 (s), train/lr: 2.50e-04, train/loss: 0.0252, train/MAE: 0.0252, train/MAPE: 0.0813, train/RMSE: 0.0412]
+2025-09-13 15:22:17,441 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:17,739 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0111, val/MAE: 0.0111, val/MAPE: 0.0484, val/RMSE: 0.0142]
+2025-09-13 15:22:17,759 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:18,043 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0119, test/MAPE: 0.0788, test/RMSE: 0.0153]
+2025-09-13 15:22:18,060 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_026.pt saved
+2025-09-13 15:22:18,060 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:18,060 - easytorch-training - INFO - Epoch 27 / 100
+2025-09-13 15:22:19,747 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 2.50e-04, train/loss: 0.0246, train/MAE: 0.0246, train/MAPE: 0.0790, train/RMSE: 0.0400]
+2025-09-13 15:22:19,748 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:20,045 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0103, val/MAE: 0.0103, val/MAPE: 0.0464, val/RMSE: 0.0134]
+2025-09-13 15:22:20,063 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:20,361 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0109, test/MAPE: 0.0738, test/RMSE: 0.0141]
+2025-09-13 15:22:20,379 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_027.pt saved
+2025-09-13 15:22:20,379 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:20,379 - easytorch-training - INFO - Epoch 28 / 100
+2025-09-13 15:22:22,034 - easytorch-training - INFO - Result <train>: [train/time: 1.65 (s), train/lr: 2.50e-04, train/loss: 0.0237, train/MAE: 0.0237, train/MAPE: 0.0760, train/RMSE: 0.0385]
+2025-09-13 15:22:22,035 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:22,355 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0098, val/MAE: 0.0098, val/MAPE: 0.0433, val/RMSE: 0.0127]
+2025-09-13 15:22:22,373 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:22,665 - easytorch-training - INFO - Result <test>: [test/time: 0.29 (s), test/loss: 0.0000, test/MAE: 0.0105, test/MAPE: 0.0703, test/RMSE: 0.0136]
+2025-09-13 15:22:22,682 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_028.pt saved
+2025-09-13 15:22:22,682 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:22,682 - easytorch-training - INFO - Epoch 29 / 100
+2025-09-13 15:22:24,394 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 2.50e-04, train/loss: 0.0228, train/MAE: 0.0228, train/MAPE: 0.0734, train/RMSE: 0.0372]
+2025-09-13 15:22:24,395 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:24,670 - easytorch-training - INFO - Result <val>: [val/time: 0.28 (s), val/loss: 0.0097, val/MAE: 0.0097, val/MAPE: 0.0431, val/RMSE: 0.0125]
+2025-09-13 15:22:24,687 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:25,007 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0104, test/MAPE: 0.0687, test/RMSE: 0.0134]
+2025-09-13 15:22:25,024 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_029.pt saved
+2025-09-13 15:22:25,024 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:09
+2025-09-13 15:22:25,024 - easytorch-training - INFO - Epoch 30 / 100
+2025-09-13 15:22:26,747 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 2.50e-04, train/loss: 0.0222, train/MAE: 0.0222, train/MAPE: 0.0710, train/RMSE: 0.0361]
+2025-09-13 15:22:26,747 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:27,038 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0096, val/MAE: 0.0096, val/MAPE: 0.0433, val/RMSE: 0.0123]
+2025-09-13 15:22:27,055 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:27,412 - easytorch-training - INFO - Result <test>: [test/time: 0.36 (s), test/loss: 0.0000, test/MAE: 0.0102, test/MAPE: 0.0691, test/RMSE: 0.0132]
+2025-09-13 15:22:27,429 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_030.pt saved
+2025-09-13 15:22:27,430 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:27,430 - easytorch-training - INFO - Epoch 31 / 100
+2025-09-13 15:22:29,087 - easytorch-training - INFO - Result <train>: [train/time: 1.66 (s), train/lr: 2.50e-04, train/loss: 0.0215, train/MAE: 0.0215, train/MAPE: 0.0686, train/RMSE: 0.0349]
+2025-09-13 15:22:29,087 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:29,429 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0110, val/MAE: 0.0110, val/MAPE: 0.0478, val/RMSE: 0.0138]
+2025-09-13 15:22:29,775 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0117, test/MAPE: 0.0782, test/RMSE: 0.0148]
+2025-09-13 15:22:29,792 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_031.pt saved
+2025-09-13 15:22:29,792 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:29,792 - easytorch-training - INFO - Epoch 32 / 100
+2025-09-13 15:22:31,519 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 2.50e-04, train/loss: 0.0209, train/MAE: 0.0209, train/MAPE: 0.0666, train/RMSE: 0.0338]
+2025-09-13 15:22:31,519 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:31,929 - easytorch-training - INFO - Result <val>: [val/time: 0.41 (s), val/loss: 0.0084, val/MAE: 0.0084, val/MAPE: 0.0376, val/RMSE: 0.0109]
+2025-09-13 15:22:31,946 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:32,272 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0089, test/MAPE: 0.0588, test/RMSE: 0.0116]
+2025-09-13 15:22:32,290 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_032.pt saved
+2025-09-13 15:22:32,290 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:32,290 - easytorch-training - INFO - Epoch 33 / 100
+2025-09-13 15:22:33,974 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 2.50e-04, train/loss: 0.0203, train/MAE: 0.0203, train/MAPE: 0.0644, train/RMSE: 0.0328]
+2025-09-13 15:22:33,975 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:34,324 - easytorch-training - INFO - Result <val>: [val/time: 0.35 (s), val/loss: 0.0097, val/MAE: 0.0097, val/MAPE: 0.0427, val/RMSE: 0.0122]
+2025-09-13 15:22:34,628 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0100, test/MAPE: 0.0636, test/RMSE: 0.0126]
+2025-09-13 15:22:34,644 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_033.pt saved
+2025-09-13 15:22:34,645 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:34,645 - easytorch-training - INFO - Epoch 34 / 100
+2025-09-13 15:22:36,311 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 2.50e-04, train/loss: 0.0198, train/MAE: 0.0198, train/MAPE: 0.0630, train/RMSE: 0.0320]
+2025-09-13 15:22:36,312 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:36,620 - easytorch-training - INFO - Result <val>: [val/time: 0.31 (s), val/loss: 0.0079, val/MAE: 0.0079, val/MAPE: 0.0355, val/RMSE: 0.0103]
+2025-09-13 15:22:36,638 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:36,957 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0084, test/MAPE: 0.0563, test/RMSE: 0.0110]
+2025-09-13 15:22:36,974 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_034.pt saved
+2025-09-13 15:22:36,974 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:36,974 - easytorch-training - INFO - Epoch 35 / 100
+2025-09-13 15:22:38,661 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 2.50e-04, train/loss: 0.0191, train/MAE: 0.0191, train/MAPE: 0.0606, train/RMSE: 0.0309]
+2025-09-13 15:22:38,662 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:38,990 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0089, val/MAE: 0.0089, val/MAPE: 0.0397, val/RMSE: 0.0113]
+2025-09-13 15:22:39,307 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0093, test/MAPE: 0.0592, test/RMSE: 0.0118]
+2025-09-13 15:22:39,324 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_035.pt saved
+2025-09-13 15:22:39,325 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:10
+2025-09-13 15:22:39,325 - easytorch-training - INFO - Epoch 36 / 100
+2025-09-13 15:22:41,058 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 2.50e-04, train/loss: 0.0188, train/MAE: 0.0188, train/MAPE: 0.0593, train/RMSE: 0.0302]
+2025-09-13 15:22:41,059 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:41,447 - easytorch-training - INFO - Result <val>: [val/time: 0.39 (s), val/loss: 0.0075, val/MAE: 0.0075, val/MAPE: 0.0328, val/RMSE: 0.0097]
+2025-09-13 15:22:41,464 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:41,802 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0081, test/MAPE: 0.0527, test/RMSE: 0.0105]
+2025-09-13 15:22:41,819 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_036.pt saved
+2025-09-13 15:22:41,820 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:22:41,820 - easytorch-training - INFO - Epoch 37 / 100
+2025-09-13 15:22:43,465 - easytorch-training - INFO - Result <train>: [train/time: 1.65 (s), train/lr: 2.50e-04, train/loss: 0.0183, train/MAE: 0.0183, train/MAPE: 0.0579, train/RMSE: 0.0295]
+2025-09-13 15:22:43,466 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:43,830 - easytorch-training - INFO - Result <val>: [val/time: 0.36 (s), val/loss: 0.0084, val/MAE: 0.0084, val/MAPE: 0.0388, val/RMSE: 0.0108]
+2025-09-13 15:22:44,159 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0087, test/MAPE: 0.0570, test/RMSE: 0.0111]
+2025-09-13 15:22:44,177 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_037.pt saved
+2025-09-13 15:22:44,177 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:22:44,177 - easytorch-training - INFO - Epoch 38 / 100
+2025-09-13 15:22:45,950 - easytorch-training - INFO - Result <train>: [train/time: 1.77 (s), train/lr: 2.50e-04, train/loss: 0.0178, train/MAE: 0.0178, train/MAPE: 0.0562, train/RMSE: 0.0286]
+2025-09-13 15:22:45,951 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:46,314 - easytorch-training - INFO - Result <val>: [val/time: 0.36 (s), val/loss: 0.0079, val/MAE: 0.0079, val/MAPE: 0.0352, val/RMSE: 0.0101]
+2025-09-13 15:22:46,637 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0085, test/MAPE: 0.0566, test/RMSE: 0.0110]
+2025-09-13 15:22:46,654 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_038.pt saved
+2025-09-13 15:22:46,654 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:11
+2025-09-13 15:22:46,654 - easytorch-training - INFO - Epoch 39 / 100
+2025-09-13 15:22:48,369 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 2.50e-04, train/loss: 0.0175, train/MAE: 0.0175, train/MAPE: 0.0550, train/RMSE: 0.0280]
+2025-09-13 15:22:48,370 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:48,713 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0075, val/MAE: 0.0075, val/MAPE: 0.0325, val/RMSE: 0.0097]
+2025-09-13 15:22:49,100 - easytorch-training - INFO - Result <test>: [test/time: 0.39 (s), test/loss: 0.0000, test/MAE: 0.0079, test/MAPE: 0.0500, test/RMSE: 0.0103]
+2025-09-13 15:22:49,117 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_039.pt saved
+2025-09-13 15:22:49,117 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:22:49,117 - easytorch-training - INFO - Epoch 40 / 100
+2025-09-13 15:22:50,803 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 2.50e-04, train/loss: 0.0171, train/MAE: 0.0171, train/MAPE: 0.0537, train/RMSE: 0.0274]
+2025-09-13 15:22:50,804 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:51,099 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0070, val/MAE: 0.0070, val/MAPE: 0.0306, val/RMSE: 0.0090]
+2025-09-13 15:22:51,116 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:51,425 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0074, test/MAPE: 0.0477, test/RMSE: 0.0096]
+2025-09-13 15:22:51,442 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_040.pt saved
+2025-09-13 15:22:51,443 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:22:51,443 - easytorch-training - INFO - Epoch 41 / 100
+2025-09-13 15:22:53,152 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 2.50e-04, train/loss: 0.0165, train/MAE: 0.0165, train/MAPE: 0.0517, train/RMSE: 0.0266]
+2025-09-13 15:22:53,153 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:53,495 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0067, val/MAE: 0.0067, val/MAPE: 0.0281, val/RMSE: 0.0088]
+2025-09-13 15:22:53,512 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:53,818 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0071, test/MAPE: 0.0436, test/RMSE: 0.0093]
+2025-09-13 15:22:53,835 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_041.pt saved
+2025-09-13 15:22:53,835 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:22:53,835 - easytorch-training - INFO - Epoch 42 / 100
+2025-09-13 15:22:55,555 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 2.50e-04, train/loss: 0.0163, train/MAE: 0.0163, train/MAPE: 0.0512, train/RMSE: 0.0261]
+2025-09-13 15:22:55,556 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:55,906 - easytorch-training - INFO - Result <val>: [val/time: 0.35 (s), val/loss: 0.0065, val/MAE: 0.0065, val/MAPE: 0.0295, val/RMSE: 0.0085]
+2025-09-13 15:22:55,924 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:22:56,310 - easytorch-training - INFO - Result <test>: [test/time: 0.39 (s), test/loss: 0.0000, test/MAE: 0.0068, test/MAPE: 0.0439, test/RMSE: 0.0089]
+2025-09-13 15:22:56,327 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_042.pt saved
+2025-09-13 15:22:56,327 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:22:56,327 - easytorch-training - INFO - Epoch 43 / 100
+2025-09-13 15:22:58,038 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 2.50e-04, train/loss: 0.0159, train/MAE: 0.0159, train/MAPE: 0.0498, train/RMSE: 0.0255]
+2025-09-13 15:22:58,039 - easytorch-training - INFO - Start validation.
+2025-09-13 15:22:58,359 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0072, val/MAE: 0.0072, val/MAPE: 0.0317, val/RMSE: 0.0092]
+2025-09-13 15:22:58,696 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0075, test/MAPE: 0.0459, test/RMSE: 0.0095]
+2025-09-13 15:22:58,714 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_043.pt saved
+2025-09-13 15:22:58,714 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:12
+2025-09-13 15:22:58,714 - easytorch-training - INFO - Epoch 44 / 100
+2025-09-13 15:23:00,412 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 2.50e-04, train/loss: 0.0156, train/MAE: 0.0156, train/MAPE: 0.0489, train/RMSE: 0.0249]
+2025-09-13 15:23:00,413 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:00,820 - easytorch-training - INFO - Result <val>: [val/time: 0.41 (s), val/loss: 0.0060, val/MAE: 0.0060, val/MAPE: 0.0269, val/RMSE: 0.0078]
+2025-09-13 15:23:00,838 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:01,243 - easytorch-training - INFO - Result <test>: [test/time: 0.40 (s), test/loss: 0.0000, test/MAE: 0.0064, test/MAPE: 0.0413, test/RMSE: 0.0083]
+2025-09-13 15:23:01,261 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_044.pt saved
+2025-09-13 15:23:01,261 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:01,261 - easytorch-training - INFO - Epoch 45 / 100
+2025-09-13 15:23:02,974 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 2.50e-04, train/loss: 0.0152, train/MAE: 0.0152, train/MAPE: 0.0476, train/RMSE: 0.0243]
+2025-09-13 15:23:02,975 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:03,295 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0064, val/MAE: 0.0064, val/MAPE: 0.0280, val/RMSE: 0.0083]
+2025-09-13 15:23:03,608 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0069, test/MAPE: 0.0448, test/RMSE: 0.0090]
+2025-09-13 15:23:03,626 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_045.pt saved
+2025-09-13 15:23:03,626 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:03,626 - easytorch-training - INFO - Epoch 46 / 100
+2025-09-13 15:23:05,356 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 2.50e-04, train/loss: 0.0149, train/MAE: 0.0149, train/MAPE: 0.0467, train/RMSE: 0.0239]
+2025-09-13 15:23:05,357 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:05,682 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0064, val/MAE: 0.0064, val/MAPE: 0.0285, val/RMSE: 0.0083]
+2025-09-13 15:23:06,011 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0068, test/MAPE: 0.0438, test/RMSE: 0.0088]
+2025-09-13 15:23:06,029 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_046.pt saved
+2025-09-13 15:23:06,029 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:06,029 - easytorch-training - INFO - Epoch 47 / 100
+2025-09-13 15:23:07,732 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 2.50e-04, train/loss: 0.0145, train/MAE: 0.0145, train/MAPE: 0.0453, train/RMSE: 0.0233]
+2025-09-13 15:23:07,732 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:08,073 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0060, val/MAE: 0.0060, val/MAPE: 0.0259, val/RMSE: 0.0077]
+2025-09-13 15:23:08,091 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:08,399 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0064, test/MAPE: 0.0399, test/RMSE: 0.0083]
+2025-09-13 15:23:08,417 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_047.pt saved
+2025-09-13 15:23:08,417 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:08,417 - easytorch-training - INFO - Epoch 48 / 100
+2025-09-13 15:23:10,107 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 2.50e-04, train/loss: 0.0145, train/MAE: 0.0145, train/MAPE: 0.0451, train/RMSE: 0.0231]
+2025-09-13 15:23:10,108 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:10,429 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0060, val/MAE: 0.0060, val/MAPE: 0.0251, val/RMSE: 0.0077]
+2025-09-13 15:23:10,762 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0065, test/MAPE: 0.0383, test/RMSE: 0.0083]
+2025-09-13 15:23:10,779 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_048.pt saved
+2025-09-13 15:23:10,779 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:10,779 - easytorch-training - INFO - Epoch 49 / 100
+2025-09-13 15:23:12,327 - easytorch-training - INFO - Result <train>: [train/time: 1.55 (s), train/lr: 2.50e-04, train/loss: 0.0140, train/MAE: 0.0140, train/MAPE: 0.0435, train/RMSE: 0.0224]
+2025-09-13 15:23:12,328 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:12,650 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0061, val/MAE: 0.0061, val/MAPE: 0.0240, val/RMSE: 0.0078]
+2025-09-13 15:23:12,969 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0066, test/MAPE: 0.0376, test/RMSE: 0.0084]
+2025-09-13 15:23:12,986 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_049.pt saved
+2025-09-13 15:23:12,986 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:12,986 - easytorch-training - INFO - Epoch 50 / 100
+2025-09-13 15:23:14,679 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 2.50e-04, train/loss: 0.0138, train/MAE: 0.0138, train/MAPE: 0.0428, train/RMSE: 0.0220]
+2025-09-13 15:23:14,679 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:14,998 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0057, val/MAE: 0.0057, val/MAPE: 0.0240, val/RMSE: 0.0073]
+2025-09-13 15:23:15,016 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:15,318 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0061, test/MAPE: 0.0370, test/RMSE: 0.0079]
+2025-09-13 15:23:15,335 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_050.pt saved
+2025-09-13 15:23:15,337 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:15,337 - easytorch-training - INFO - Epoch 51 / 100
+2025-09-13 15:23:17,040 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 1.25e-04, train/loss: 0.0130, train/MAE: 0.0130, train/MAPE: 0.0405, train/RMSE: 0.0211]
+2025-09-13 15:23:17,040 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:17,448 - easytorch-training - INFO - Result <val>: [val/time: 0.41 (s), val/loss: 0.0047, val/MAE: 0.0047, val/MAPE: 0.0205, val/RMSE: 0.0062]
+2025-09-13 15:23:17,466 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:17,787 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0051, test/MAPE: 0.0320, test/RMSE: 0.0068]
+2025-09-13 15:23:17,806 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_051.pt saved
+2025-09-13 15:23:17,806 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:17,806 - easytorch-training - INFO - Epoch 52 / 100
+2025-09-13 15:23:19,470 - easytorch-training - INFO - Result <train>: [train/time: 1.66 (s), train/lr: 1.25e-04, train/loss: 0.0129, train/MAE: 0.0129, train/MAPE: 0.0400, train/RMSE: 0.0209]
+2025-09-13 15:23:19,471 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:19,845 - easytorch-training - INFO - Result <val>: [val/time: 0.37 (s), val/loss: 0.0049, val/MAE: 0.0049, val/MAPE: 0.0216, val/RMSE: 0.0064]
+2025-09-13 15:23:20,161 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0052, test/MAPE: 0.0320, test/RMSE: 0.0068]
+2025-09-13 15:23:20,179 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_052.pt saved
+2025-09-13 15:23:20,179 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:20,179 - easytorch-training - INFO - Epoch 53 / 100
+2025-09-13 15:23:21,988 - easytorch-training - INFO - Result <train>: [train/time: 1.81 (s), train/lr: 1.25e-04, train/loss: 0.0127, train/MAE: 0.0127, train/MAPE: 0.0394, train/RMSE: 0.0205]
+2025-09-13 15:23:21,989 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:22,318 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0050, val/MAE: 0.0050, val/MAPE: 0.0212, val/RMSE: 0.0065]
+2025-09-13 15:23:22,616 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0053, test/MAPE: 0.0326, test/RMSE: 0.0070]
+2025-09-13 15:23:22,634 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_053.pt saved
+2025-09-13 15:23:22,634 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:22,634 - easytorch-training - INFO - Epoch 54 / 100
+2025-09-13 15:23:24,380 - easytorch-training - INFO - Result <train>: [train/time: 1.75 (s), train/lr: 1.25e-04, train/loss: 0.0124, train/MAE: 0.0124, train/MAPE: 0.0385, train/RMSE: 0.0201]
+2025-09-13 15:23:24,381 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:24,724 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0046, val/MAE: 0.0046, val/MAPE: 0.0197, val/RMSE: 0.0060]
+2025-09-13 15:23:24,742 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:25,059 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0048, test/MAPE: 0.0292, test/RMSE: 0.0064]
+2025-09-13 15:23:25,077 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_054.pt saved
+2025-09-13 15:23:25,077 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:25,078 - easytorch-training - INFO - Epoch 55 / 100
+2025-09-13 15:23:26,755 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 1.25e-04, train/loss: 0.0122, train/MAE: 0.0122, train/MAPE: 0.0378, train/RMSE: 0.0198]
+2025-09-13 15:23:26,755 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:27,073 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0046, val/MAE: 0.0046, val/MAPE: 0.0199, val/RMSE: 0.0061]
+2025-09-13 15:23:27,381 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0049, test/MAPE: 0.0299, test/RMSE: 0.0065]
+2025-09-13 15:23:27,399 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_055.pt saved
+2025-09-13 15:23:27,399 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:27,399 - easytorch-training - INFO - Epoch 56 / 100
+2025-09-13 15:23:29,150 - easytorch-training - INFO - Result <train>: [train/time: 1.75 (s), train/lr: 1.25e-04, train/loss: 0.0120, train/MAE: 0.0120, train/MAPE: 0.0371, train/RMSE: 0.0195]
+2025-09-13 15:23:29,151 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:29,481 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0045, val/MAE: 0.0045, val/MAPE: 0.0196, val/RMSE: 0.0059]
+2025-09-13 15:23:29,499 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:29,808 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0047, test/MAPE: 0.0286, test/RMSE: 0.0063]
+2025-09-13 15:23:29,825 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_056.pt saved
+2025-09-13 15:23:29,825 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:29,825 - easytorch-training - INFO - Epoch 57 / 100
+2025-09-13 15:23:31,594 - easytorch-training - INFO - Result <train>: [train/time: 1.77 (s), train/lr: 1.25e-04, train/loss: 0.0119, train/MAE: 0.0119, train/MAPE: 0.0366, train/RMSE: 0.0192]
+2025-09-13 15:23:31,594 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:31,919 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0045, val/MAE: 0.0045, val/MAPE: 0.0201, val/RMSE: 0.0059]
+2025-09-13 15:23:32,230 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0047, test/MAPE: 0.0299, test/RMSE: 0.0063]
+2025-09-13 15:23:32,248 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_057.pt saved
+2025-09-13 15:23:32,248 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:32,248 - easytorch-training - INFO - Epoch 58 / 100
+2025-09-13 15:23:33,954 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 1.25e-04, train/loss: 0.0117, train/MAE: 0.0117, train/MAPE: 0.0361, train/RMSE: 0.0189]
+2025-09-13 15:23:33,955 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:34,316 - easytorch-training - INFO - Result <val>: [val/time: 0.36 (s), val/loss: 0.0048, val/MAE: 0.0048, val/MAPE: 0.0208, val/RMSE: 0.0062]
+2025-09-13 15:23:34,615 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0050, test/MAPE: 0.0307, test/RMSE: 0.0065]
+2025-09-13 15:23:34,632 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_058.pt saved
+2025-09-13 15:23:34,633 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:34,633 - easytorch-training - INFO - Epoch 59 / 100
+2025-09-13 15:23:36,356 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 1.25e-04, train/loss: 0.0115, train/MAE: 0.0115, train/MAPE: 0.0355, train/RMSE: 0.0186]
+2025-09-13 15:23:36,357 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:36,655 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0042, val/MAE: 0.0042, val/MAPE: 0.0172, val/RMSE: 0.0055]
+2025-09-13 15:23:36,673 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:36,989 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0045, test/MAPE: 0.0269, test/RMSE: 0.0060]
+2025-09-13 15:23:37,006 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_059.pt saved
+2025-09-13 15:23:37,006 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:37,006 - easytorch-training - INFO - Epoch 60 / 100
+2025-09-13 15:23:38,681 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 1.25e-04, train/loss: 0.0113, train/MAE: 0.0113, train/MAPE: 0.0349, train/RMSE: 0.0183]
+2025-09-13 15:23:38,682 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:38,997 - easytorch-training - INFO - Result <val>: [val/time: 0.31 (s), val/loss: 0.0047, val/MAE: 0.0047, val/MAPE: 0.0197, val/RMSE: 0.0060]
+2025-09-13 15:23:39,326 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0048, test/MAPE: 0.0282, test/RMSE: 0.0063]
+2025-09-13 15:23:39,344 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_060.pt saved
+2025-09-13 15:23:39,345 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:13
+2025-09-13 15:23:39,345 - easytorch-training - INFO - Epoch 61 / 100
+2025-09-13 15:23:41,328 - easytorch-training - INFO - Result <train>: [train/time: 1.98 (s), train/lr: 1.25e-04, train/loss: 0.0111, train/MAE: 0.0111, train/MAPE: 0.0342, train/RMSE: 0.0180]
+2025-09-13 15:23:41,329 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:41,736 - easytorch-training - INFO - Result <val>: [val/time: 0.41 (s), val/loss: 0.0043, val/MAE: 0.0043, val/MAPE: 0.0178, val/RMSE: 0.0056]
+2025-09-13 15:23:42,051 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0046, test/MAPE: 0.0272, test/RMSE: 0.0061]
+2025-09-13 15:23:42,070 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_061.pt saved
+2025-09-13 15:23:42,070 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:42,070 - easytorch-training - INFO - Epoch 62 / 100
+2025-09-13 15:23:43,804 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 1.25e-04, train/loss: 0.0110, train/MAE: 0.0110, train/MAPE: 0.0338, train/RMSE: 0.0178]
+2025-09-13 15:23:43,805 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:44,127 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0041, val/MAE: 0.0041, val/MAPE: 0.0169, val/RMSE: 0.0054]
+2025-09-13 15:23:44,145 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:44,453 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0044, test/MAPE: 0.0252, test/RMSE: 0.0059]
+2025-09-13 15:23:44,471 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_062.pt saved
+2025-09-13 15:23:44,471 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:44,471 - easytorch-training - INFO - Epoch 63 / 100
+2025-09-13 15:23:46,178 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 1.25e-04, train/loss: 0.0108, train/MAE: 0.0108, train/MAPE: 0.0332, train/RMSE: 0.0175]
+2025-09-13 15:23:46,178 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:46,499 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0044, val/MAE: 0.0044, val/MAPE: 0.0190, val/RMSE: 0.0057]
+2025-09-13 15:23:46,814 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0045, test/MAPE: 0.0270, test/RMSE: 0.0059]
+2025-09-13 15:23:46,832 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_063.pt saved
+2025-09-13 15:23:46,832 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:46,832 - easytorch-training - INFO - Epoch 64 / 100
+2025-09-13 15:23:48,566 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 1.25e-04, train/loss: 0.0107, train/MAE: 0.0107, train/MAPE: 0.0327, train/RMSE: 0.0172]
+2025-09-13 15:23:48,567 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:48,896 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0038, val/MAE: 0.0038, val/MAPE: 0.0158, val/RMSE: 0.0050]
+2025-09-13 15:23:48,914 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:49,267 - easytorch-training - INFO - Result <test>: [test/time: 0.35 (s), test/loss: 0.0000, test/MAE: 0.0040, test/MAPE: 0.0239, test/RMSE: 0.0054]
+2025-09-13 15:23:49,284 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_064.pt saved
+2025-09-13 15:23:49,285 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:49,285 - easytorch-training - INFO - Epoch 65 / 100
+2025-09-13 15:23:51,010 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 1.25e-04, train/loss: 0.0105, train/MAE: 0.0105, train/MAPE: 0.0323, train/RMSE: 0.0170]
+2025-09-13 15:23:51,010 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:51,298 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0038, val/MAE: 0.0038, val/MAPE: 0.0159, val/RMSE: 0.0050]
+2025-09-13 15:23:51,633 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0041, test/MAPE: 0.0246, test/RMSE: 0.0055]
+2025-09-13 15:23:51,650 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_065.pt saved
+2025-09-13 15:23:51,651 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:51,651 - easytorch-training - INFO - Epoch 66 / 100
+2025-09-13 15:23:53,370 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 1.25e-04, train/loss: 0.0104, train/MAE: 0.0104, train/MAPE: 0.0318, train/RMSE: 0.0168]
+2025-09-13 15:23:53,371 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:53,669 - easytorch-training - INFO - Result <val>: [val/time: 0.30 (s), val/loss: 0.0037, val/MAE: 0.0037, val/MAPE: 0.0156, val/RMSE: 0.0049]
+2025-09-13 15:23:53,687 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:54,013 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0039, test/MAPE: 0.0231, test/RMSE: 0.0053]
+2025-09-13 15:23:54,031 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_066.pt saved
+2025-09-13 15:23:54,031 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:54,031 - easytorch-training - INFO - Epoch 67 / 100
+2025-09-13 15:23:55,705 - easytorch-training - INFO - Result <train>: [train/time: 1.67 (s), train/lr: 1.25e-04, train/loss: 0.0103, train/MAE: 0.0103, train/MAPE: 0.0314, train/RMSE: 0.0166]
+2025-09-13 15:23:55,706 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:56,011 - easytorch-training - INFO - Result <val>: [val/time: 0.31 (s), val/loss: 0.0036, val/MAE: 0.0036, val/MAPE: 0.0150, val/RMSE: 0.0048]
+2025-09-13 15:23:56,029 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:23:56,610 - easytorch-training - INFO - Result <test>: [test/time: 0.58 (s), test/loss: 0.0000, test/MAE: 0.0038, test/MAPE: 0.0224, test/RMSE: 0.0051]
+2025-09-13 15:23:56,627 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_067.pt saved
+2025-09-13 15:23:56,628 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:56,628 - easytorch-training - INFO - Epoch 68 / 100
+2025-09-13 15:23:58,342 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 1.25e-04, train/loss: 0.0101, train/MAE: 0.0101, train/MAPE: 0.0310, train/RMSE: 0.0164]
+2025-09-13 15:23:58,343 - easytorch-training - INFO - Start validation.
+2025-09-13 15:23:58,678 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0037, val/MAE: 0.0037, val/MAPE: 0.0155, val/RMSE: 0.0049]
+2025-09-13 15:23:59,010 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0041, test/MAPE: 0.0242, test/RMSE: 0.0055]
+2025-09-13 15:23:59,027 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_068.pt saved
+2025-09-13 15:23:59,027 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:23:59,027 - easytorch-training - INFO - Epoch 69 / 100
+2025-09-13 15:24:00,707 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 1.25e-04, train/loss: 0.0099, train/MAE: 0.0099, train/MAPE: 0.0304, train/RMSE: 0.0161]
+2025-09-13 15:24:00,708 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:01,044 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0037, val/MAE: 0.0037, val/MAPE: 0.0154, val/RMSE: 0.0049]
+2025-09-13 15:24:01,368 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0038, test/MAPE: 0.0222, test/RMSE: 0.0052]
+2025-09-13 15:24:01,386 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_069.pt saved
+2025-09-13 15:24:01,386 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:24:01,386 - easytorch-training - INFO - Epoch 70 / 100
+2025-09-13 15:24:03,092 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 1.25e-04, train/loss: 0.0099, train/MAE: 0.0099, train/MAPE: 0.0301, train/RMSE: 0.0160]
+2025-09-13 15:24:03,093 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:03,422 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0037, val/MAE: 0.0037, val/MAPE: 0.0149, val/RMSE: 0.0048]
+2025-09-13 15:24:03,751 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0040, test/MAPE: 0.0229, test/RMSE: 0.0053]
+2025-09-13 15:24:03,769 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_070.pt saved
+2025-09-13 15:24:03,770 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:14
+2025-09-13 15:24:03,770 - easytorch-training - INFO - Epoch 71 / 100
+2025-09-13 15:24:05,472 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 1.25e-04, train/loss: 0.0097, train/MAE: 0.0097, train/MAPE: 0.0296, train/RMSE: 0.0157]
+2025-09-13 15:24:05,473 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:05,849 - easytorch-training - INFO - Result <val>: [val/time: 0.38 (s), val/loss: 0.0035, val/MAE: 0.0035, val/MAPE: 0.0146, val/RMSE: 0.0047]
+2025-09-13 15:24:05,866 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:06,202 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0038, test/MAPE: 0.0213, test/RMSE: 0.0051]
+2025-09-13 15:24:06,220 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_071.pt saved
+2025-09-13 15:24:06,220 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:06,220 - easytorch-training - INFO - Epoch 72 / 100
+2025-09-13 15:24:07,992 - easytorch-training - INFO - Result <train>: [train/time: 1.77 (s), train/lr: 1.25e-04, train/loss: 0.0096, train/MAE: 0.0096, train/MAPE: 0.0293, train/RMSE: 0.0155]
+2025-09-13 15:24:07,992 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:08,404 - easytorch-training - INFO - Result <val>: [val/time: 0.41 (s), val/loss: 0.0035, val/MAE: 0.0035, val/MAPE: 0.0145, val/RMSE: 0.0046]
+2025-09-13 15:24:08,422 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:08,732 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0037, test/MAPE: 0.0207, test/RMSE: 0.0049]
+2025-09-13 15:24:08,750 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_072.pt saved
+2025-09-13 15:24:08,750 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:08,750 - easytorch-training - INFO - Epoch 73 / 100
+2025-09-13 15:24:10,542 - easytorch-training - INFO - Result <train>: [train/time: 1.79 (s), train/lr: 1.25e-04, train/loss: 0.0095, train/MAE: 0.0095, train/MAPE: 0.0289, train/RMSE: 0.0154]
+2025-09-13 15:24:10,543 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:10,865 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0035, val/MAE: 0.0035, val/MAPE: 0.0143, val/RMSE: 0.0046]
+2025-09-13 15:24:11,173 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0037, test/MAPE: 0.0217, test/RMSE: 0.0050]
+2025-09-13 15:24:11,191 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_073.pt saved
+2025-09-13 15:24:11,191 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:11,191 - easytorch-training - INFO - Epoch 74 / 100
+2025-09-13 15:24:12,886 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 1.25e-04, train/loss: 0.0094, train/MAE: 0.0094, train/MAPE: 0.0285, train/RMSE: 0.0152]
+2025-09-13 15:24:12,887 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:13,306 - easytorch-training - INFO - Result <val>: [val/time: 0.42 (s), val/loss: 0.0034, val/MAE: 0.0034, val/MAPE: 0.0134, val/RMSE: 0.0045]
+2025-09-13 15:24:13,324 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:13,627 - easytorch-training - INFO - Result <test>: [test/time: 0.30 (s), test/loss: 0.0000, test/MAE: 0.0037, test/MAPE: 0.0198, test/RMSE: 0.0049]
+2025-09-13 15:24:13,644 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_074.pt saved
+2025-09-13 15:24:13,645 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:13,645 - easytorch-training - INFO - Epoch 75 / 100
+2025-09-13 15:24:15,443 - easytorch-training - INFO - Result <train>: [train/time: 1.80 (s), train/lr: 1.25e-04, train/loss: 0.0093, train/MAE: 0.0093, train/MAPE: 0.0283, train/RMSE: 0.0151]
+2025-09-13 15:24:15,443 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:15,763 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0032, val/MAE: 0.0032, val/MAPE: 0.0133, val/RMSE: 0.0043]
+2025-09-13 15:24:15,781 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:16,089 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0034, test/MAPE: 0.0196, test/RMSE: 0.0046]
+2025-09-13 15:24:16,106 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_075.pt saved
+2025-09-13 15:24:16,106 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:16,106 - easytorch-training - INFO - Epoch 76 / 100
+2025-09-13 15:24:17,818 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 6.25e-05, train/loss: 0.0090, train/MAE: 0.0090, train/MAPE: 0.0274, train/RMSE: 0.0147]
+2025-09-13 15:24:17,819 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:18,153 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0031, val/MAE: 0.0031, val/MAPE: 0.0123, val/RMSE: 0.0041]
+2025-09-13 15:24:18,171 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:18,483 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0033, test/MAPE: 0.0185, test/RMSE: 0.0045]
+2025-09-13 15:24:18,501 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_076.pt saved
+2025-09-13 15:24:18,501 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:18,501 - easytorch-training - INFO - Epoch 77 / 100
+2025-09-13 15:24:20,210 - easytorch-training - INFO - Result <train>: [train/time: 1.71 (s), train/lr: 6.25e-05, train/loss: 0.0089, train/MAE: 0.0089, train/MAPE: 0.0272, train/RMSE: 0.0146]
+2025-09-13 15:24:20,211 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:20,532 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0032, val/MAE: 0.0032, val/MAPE: 0.0136, val/RMSE: 0.0043]
+2025-09-13 15:24:20,842 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0033, test/MAPE: 0.0193, test/RMSE: 0.0045]
+2025-09-13 15:24:20,859 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_077.pt saved
+2025-09-13 15:24:20,860 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:20,860 - easytorch-training - INFO - Epoch 78 / 100
+2025-09-13 15:24:22,554 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 6.25e-05, train/loss: 0.0088, train/MAE: 0.0088, train/MAPE: 0.0268, train/RMSE: 0.0145]
+2025-09-13 15:24:22,554 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:22,875 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0030, val/MAE: 0.0030, val/MAPE: 0.0126, val/RMSE: 0.0041]
+2025-09-13 15:24:22,893 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:23,265 - easytorch-training - INFO - Result <test>: [test/time: 0.37 (s), test/loss: 0.0000, test/MAE: 0.0032, test/MAPE: 0.0184, test/RMSE: 0.0043]
+2025-09-13 15:24:23,282 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_078.pt saved
+2025-09-13 15:24:23,283 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:23,283 - easytorch-training - INFO - Epoch 79 / 100
+2025-09-13 15:24:24,971 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 6.25e-05, train/loss: 0.0088, train/MAE: 0.0088, train/MAPE: 0.0266, train/RMSE: 0.0143]
+2025-09-13 15:24:24,971 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:25,311 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0030, val/MAE: 0.0030, val/MAPE: 0.0122, val/RMSE: 0.0040]
+2025-09-13 15:24:25,329 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:25,649 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0032, test/MAPE: 0.0186, test/RMSE: 0.0044]
+2025-09-13 15:24:25,666 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_079.pt saved
+2025-09-13 15:24:25,666 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:25,666 - easytorch-training - INFO - Epoch 80 / 100
+2025-09-13 15:24:27,354 - easytorch-training - INFO - Result <train>: [train/time: 1.69 (s), train/lr: 6.25e-05, train/loss: 0.0087, train/MAE: 0.0087, train/MAPE: 0.0263, train/RMSE: 0.0142]
+2025-09-13 15:24:27,355 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:27,673 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0029, val/MAE: 0.0029, val/MAPE: 0.0113, val/RMSE: 0.0040]
+2025-09-13 15:24:27,691 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:28,010 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0031, test/MAPE: 0.0173, test/RMSE: 0.0043]
+2025-09-13 15:24:28,028 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_080.pt saved
+2025-09-13 15:24:28,029 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:28,029 - easytorch-training - INFO - Epoch 81 / 100
+2025-09-13 15:24:29,836 - easytorch-training - INFO - Result <train>: [train/time: 1.81 (s), train/lr: 6.25e-05, train/loss: 0.0086, train/MAE: 0.0086, train/MAPE: 0.0260, train/RMSE: 0.0141]
+2025-09-13 15:24:29,836 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:30,125 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0029, val/MAE: 0.0029, val/MAPE: 0.0114, val/RMSE: 0.0039]
+2025-09-13 15:24:30,143 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:30,469 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0030, test/MAPE: 0.0171, test/RMSE: 0.0042]
+2025-09-13 15:24:30,487 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_081.pt saved
+2025-09-13 15:24:30,487 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:30,487 - easytorch-training - INFO - Epoch 82 / 100
+2025-09-13 15:24:32,334 - easytorch-training - INFO - Result <train>: [train/time: 1.85 (s), train/lr: 6.25e-05, train/loss: 0.0085, train/MAE: 0.0085, train/MAPE: 0.0258, train/RMSE: 0.0139]
+2025-09-13 15:24:32,334 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:32,695 - easytorch-training - INFO - Result <val>: [val/time: 0.36 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0112, val/RMSE: 0.0038]
+2025-09-13 15:24:32,713 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:33,067 - easytorch-training - INFO - Result <test>: [test/time: 0.35 (s), test/loss: 0.0000, test/MAE: 0.0030, test/MAPE: 0.0169, test/RMSE: 0.0041]
+2025-09-13 15:24:33,085 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_082.pt saved
+2025-09-13 15:24:33,085 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:33,085 - easytorch-training - INFO - Epoch 83 / 100
+2025-09-13 15:24:34,810 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 6.25e-05, train/loss: 0.0084, train/MAE: 0.0084, train/MAPE: 0.0254, train/RMSE: 0.0138]
+2025-09-13 15:24:34,811 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:35,127 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0112, val/RMSE: 0.0038]
+2025-09-13 15:24:35,145 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:35,476 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0031, test/MAPE: 0.0171, test/RMSE: 0.0042]
+2025-09-13 15:24:35,494 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_083.pt saved
+2025-09-13 15:24:35,494 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:35,494 - easytorch-training - INFO - Epoch 84 / 100
+2025-09-13 15:24:37,179 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 6.25e-05, train/loss: 0.0083, train/MAE: 0.0083, train/MAPE: 0.0252, train/RMSE: 0.0137]
+2025-09-13 15:24:37,179 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:37,497 - easytorch-training - INFO - Result <val>: [val/time: 0.32 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0113, val/RMSE: 0.0038]
+2025-09-13 15:24:37,837 - easytorch-training - INFO - Result <test>: [test/time: 0.34 (s), test/loss: 0.0000, test/MAE: 0.0030, test/MAPE: 0.0165, test/RMSE: 0.0041]
+2025-09-13 15:24:37,855 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_084.pt saved
+2025-09-13 15:24:37,855 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:15
+2025-09-13 15:24:37,855 - easytorch-training - INFO - Epoch 85 / 100
+2025-09-13 15:24:39,560 - easytorch-training - INFO - Result <train>: [train/time: 1.70 (s), train/lr: 6.25e-05, train/loss: 0.0082, train/MAE: 0.0082, train/MAPE: 0.0249, train/RMSE: 0.0135]
+2025-09-13 15:24:39,560 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:39,950 - easytorch-training - INFO - Result <val>: [val/time: 0.39 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0109, val/RMSE: 0.0038]
+2025-09-13 15:24:39,967 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:40,292 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0029, test/MAPE: 0.0162, test/RMSE: 0.0040]
+2025-09-13 15:24:40,309 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_085.pt saved
+2025-09-13 15:24:40,310 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:40,310 - easytorch-training - INFO - Epoch 86 / 100
+2025-09-13 15:24:42,051 - easytorch-training - INFO - Result <train>: [train/time: 1.74 (s), train/lr: 6.25e-05, train/loss: 0.0082, train/MAE: 0.0082, train/MAPE: 0.0247, train/RMSE: 0.0134]
+2025-09-13 15:24:42,052 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:42,362 - easytorch-training - INFO - Result <val>: [val/time: 0.31 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0111, val/RMSE: 0.0038]
+2025-09-13 15:24:42,694 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0030, test/MAPE: 0.0166, test/RMSE: 0.0041]
+2025-09-13 15:24:42,711 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_086.pt saved
+2025-09-13 15:24:42,711 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:42,711 - easytorch-training - INFO - Epoch 87 / 100
+2025-09-13 15:24:44,429 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 6.25e-05, train/loss: 0.0081, train/MAE: 0.0081, train/MAPE: 0.0244, train/RMSE: 0.0133]
+2025-09-13 15:24:44,429 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:44,768 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0114, val/RMSE: 0.0038]
+2025-09-13 15:24:45,098 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0030, test/MAPE: 0.0166, test/RMSE: 0.0040]
+2025-09-13 15:24:45,115 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_087.pt saved
+2025-09-13 15:24:45,115 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:45,116 - easytorch-training - INFO - Epoch 88 / 100
+2025-09-13 15:24:46,754 - easytorch-training - INFO - Result <train>: [train/time: 1.64 (s), train/lr: 6.25e-05, train/loss: 0.0080, train/MAE: 0.0080, train/MAPE: 0.0242, train/RMSE: 0.0132]
+2025-09-13 15:24:46,755 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:47,085 - easytorch-training - INFO - Result <val>: [val/time: 0.33 (s), val/loss: 0.0026, val/MAE: 0.0026, val/MAPE: 0.0103, val/RMSE: 0.0036]
+2025-09-13 15:24:47,102 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:47,418 - easytorch-training - INFO - Result <test>: [test/time: 0.31 (s), test/loss: 0.0000, test/MAE: 0.0028, test/MAPE: 0.0154, test/RMSE: 0.0039]
+2025-09-13 15:24:47,435 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_088.pt saved
+2025-09-13 15:24:47,435 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:47,435 - easytorch-training - INFO - Epoch 89 / 100
+2025-09-13 15:24:49,164 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 6.25e-05, train/loss: 0.0080, train/MAE: 0.0080, train/MAPE: 0.0240, train/RMSE: 0.0131]
+2025-09-13 15:24:49,164 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:49,521 - easytorch-training - INFO - Result <val>: [val/time: 0.36 (s), val/loss: 0.0027, val/MAE: 0.0027, val/MAPE: 0.0106, val/RMSE: 0.0037]
+2025-09-13 15:24:49,846 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0028, test/MAPE: 0.0155, test/RMSE: 0.0039]
+2025-09-13 15:24:49,864 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_089.pt saved
+2025-09-13 15:24:49,864 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:49,864 - easytorch-training - INFO - Epoch 90 / 100
+2025-09-13 15:24:51,580 - easytorch-training - INFO - Result <train>: [train/time: 1.72 (s), train/lr: 6.25e-05, train/loss: 0.0079, train/MAE: 0.0079, train/MAPE: 0.0237, train/RMSE: 0.0130]
+2025-09-13 15:24:51,581 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:51,918 - easytorch-training - INFO - Result <val>: [val/time: 0.34 (s), val/loss: 0.0028, val/MAE: 0.0028, val/MAPE: 0.0111, val/RMSE: 0.0037]
+2025-09-13 15:24:52,245 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0029, test/MAPE: 0.0159, test/RMSE: 0.0040]
+2025-09-13 15:24:52,262 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_090.pt saved
+2025-09-13 15:24:52,263 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:52,263 - easytorch-training - INFO - Epoch 91 / 100
+2025-09-13 15:24:53,992 - easytorch-training - INFO - Result <train>: [train/time: 1.73 (s), train/lr: 6.25e-05, train/loss: 0.0078, train/MAE: 0.0078, train/MAPE: 0.0235, train/RMSE: 0.0128]
+2025-09-13 15:24:53,992 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:54,372 - easytorch-training - INFO - Result <val>: [val/time: 0.38 (s), val/loss: 0.0026, val/MAE: 0.0026, val/MAPE: 0.0102, val/RMSE: 0.0036]
+2025-09-13 15:24:54,708 - easytorch-training - INFO - Result <test>: [test/time: 0.33 (s), test/loss: 0.0000, test/MAE: 0.0028, test/MAPE: 0.0154, test/RMSE: 0.0039]
+2025-09-13 15:24:54,725 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_091.pt saved
+2025-09-13 15:24:54,726 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:54,726 - easytorch-training - INFO - Epoch 92 / 100
+2025-09-13 15:24:56,404 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 6.25e-05, train/loss: 0.0077, train/MAE: 0.0077, train/MAPE: 0.0233, train/RMSE: 0.0127]
+2025-09-13 15:24:56,405 - easytorch-training - INFO - Start validation.
+2025-09-13 15:24:56,998 - easytorch-training - INFO - Result <val>: [val/time: 0.59 (s), val/loss: 0.0026, val/MAE: 0.0026, val/MAPE: 0.0106, val/RMSE: 0.0036]
+2025-09-13 15:24:57,017 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:24:57,644 - easytorch-training - INFO - Result <test>: [test/time: 0.63 (s), test/loss: 0.0000, test/MAE: 0.0028, test/MAPE: 0.0156, test/RMSE: 0.0039]
+2025-09-13 15:24:57,662 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_092.pt saved
+2025-09-13 15:24:57,662 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:16
+2025-09-13 15:24:57,662 - easytorch-training - INFO - Epoch 93 / 100
+2025-09-13 15:24:59,740 - easytorch-training - INFO - Result <train>: [train/time: 2.08 (s), train/lr: 6.25e-05, train/loss: 0.0077, train/MAE: 0.0077, train/MAPE: 0.0231, train/RMSE: 0.0127]
+2025-09-13 15:24:59,741 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:00,715 - easytorch-training - INFO - Result <val>: [val/time: 0.97 (s), val/loss: 0.0027, val/MAE: 0.0027, val/MAPE: 0.0101, val/RMSE: 0.0036]
+2025-09-13 15:25:01,651 - easytorch-training - INFO - Result <test>: [test/time: 0.93 (s), test/loss: 0.0000, test/MAE: 0.0029, test/MAPE: 0.0151, test/RMSE: 0.0039]
+2025-09-13 15:25:01,668 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_093.pt saved
+2025-09-13 15:25:01,668 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:18
+2025-09-13 15:25:01,668 - easytorch-training - INFO - Epoch 94 / 100
+2025-09-13 15:25:03,597 - easytorch-training - INFO - Result <train>: [train/time: 1.93 (s), train/lr: 6.25e-05, train/loss: 0.0076, train/MAE: 0.0076, train/MAPE: 0.0229, train/RMSE: 0.0126]
+2025-09-13 15:25:03,597 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:04,447 - easytorch-training - INFO - Result <val>: [val/time: 0.85 (s), val/loss: 0.0025, val/MAE: 0.0025, val/MAPE: 0.0097, val/RMSE: 0.0034]
+2025-09-13 15:25:04,465 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:25:05,268 - easytorch-training - INFO - Result <test>: [test/time: 0.80 (s), test/loss: 0.0000, test/MAE: 0.0027, test/MAPE: 0.0148, test/RMSE: 0.0037]
+2025-09-13 15:25:05,286 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_094.pt saved
+2025-09-13 15:25:05,286 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:19
+2025-09-13 15:25:05,286 - easytorch-training - INFO - Epoch 95 / 100
+2025-09-13 15:25:07,537 - easytorch-training - INFO - Result <train>: [train/time: 2.25 (s), train/lr: 6.25e-05, train/loss: 0.0076, train/MAE: 0.0076, train/MAPE: 0.0227, train/RMSE: 0.0125]
+2025-09-13 15:25:07,538 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:08,437 - easytorch-training - INFO - Result <val>: [val/time: 0.90 (s), val/loss: 0.0026, val/MAE: 0.0026, val/MAPE: 0.0104, val/RMSE: 0.0036]
+2025-09-13 15:25:09,451 - easytorch-training - INFO - Result <test>: [test/time: 1.01 (s), test/loss: 0.0000, test/MAE: 0.0027, test/MAPE: 0.0148, test/RMSE: 0.0038]
+2025-09-13 15:25:09,468 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_095.pt saved
+2025-09-13 15:25:09,468 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:21
+2025-09-13 15:25:09,468 - easytorch-training - INFO - Epoch 96 / 100
+2025-09-13 15:25:11,732 - easytorch-training - INFO - Result <train>: [train/time: 2.26 (s), train/lr: 6.25e-05, train/loss: 0.0075, train/MAE: 0.0075, train/MAPE: 0.0224, train/RMSE: 0.0124]
+2025-09-13 15:25:11,733 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:13,009 - easytorch-training - INFO - Result <val>: [val/time: 1.28 (s), val/loss: 0.0024, val/MAE: 0.0024, val/MAPE: 0.0091, val/RMSE: 0.0034]
+2025-09-13 15:25:13,026 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:25:14,060 - easytorch-training - INFO - Result <test>: [test/time: 1.03 (s), test/loss: 0.0000, test/MAE: 0.0026, test/MAPE: 0.0139, test/RMSE: 0.0037]
+2025-09-13 15:25:14,077 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_096.pt saved
+2025-09-13 15:25:14,077 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:23
+2025-09-13 15:25:14,077 - easytorch-training - INFO - Epoch 97 / 100
+2025-09-13 15:25:16,507 - easytorch-training - INFO - Result <train>: [train/time: 2.43 (s), train/lr: 6.25e-05, train/loss: 0.0074, train/MAE: 0.0074, train/MAPE: 0.0223, train/RMSE: 0.0123]
+2025-09-13 15:25:16,508 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:17,085 - easytorch-training - INFO - Result <val>: [val/time: 0.58 (s), val/loss: 0.0026, val/MAE: 0.0026, val/MAPE: 0.0101, val/RMSE: 0.0035]
+2025-09-13 15:25:17,438 - easytorch-training - INFO - Result <test>: [test/time: 0.35 (s), test/loss: 0.0000, test/MAE: 0.0027, test/MAPE: 0.0149, test/RMSE: 0.0037]
+2025-09-13 15:25:17,455 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_097.pt saved
+2025-09-13 15:25:17,455 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:24
+2025-09-13 15:25:17,456 - easytorch-training - INFO - Epoch 98 / 100
+2025-09-13 15:25:19,317 - easytorch-training - INFO - Result <train>: [train/time: 1.86 (s), train/lr: 6.25e-05, train/loss: 0.0074, train/MAE: 0.0074, train/MAPE: 0.0221, train/RMSE: 0.0122]
+2025-09-13 15:25:19,318 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:19,750 - easytorch-training - INFO - Result <val>: [val/time: 0.43 (s), val/loss: 0.0024, val/MAE: 0.0024, val/MAPE: 0.0091, val/RMSE: 0.0034]
+2025-09-13 15:25:19,768 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:25:20,049 - easytorch-training - INFO - Result <test>: [test/time: 0.28 (s), test/loss: 0.0000, test/MAE: 0.0026, test/MAPE: 0.0140, test/RMSE: 0.0036]
+2025-09-13 15:25:20,066 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_098.pt saved
+2025-09-13 15:25:20,066 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:25
+2025-09-13 15:25:20,066 - easytorch-training - INFO - Epoch 99 / 100
+2025-09-13 15:25:21,744 - easytorch-training - INFO - Result <train>: [train/time: 1.68 (s), train/lr: 6.25e-05, train/loss: 0.0073, train/MAE: 0.0073, train/MAPE: 0.0219, train/RMSE: 0.0121]
+2025-09-13 15:25:21,745 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:22,005 - easytorch-training - INFO - Result <val>: [val/time: 0.26 (s), val/loss: 0.0024, val/MAE: 0.0024, val/MAPE: 0.0092, val/RMSE: 0.0033]
+2025-09-13 15:25:22,327 - easytorch-training - INFO - Result <test>: [test/time: 0.32 (s), test/loss: 0.0000, test/MAE: 0.0026, test/MAPE: 0.0140, test/RMSE: 0.0036]
+2025-09-13 15:25:22,346 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_099.pt saved
+2025-09-13 15:25:22,346 - easytorch-training - INFO - The estimated training finish time is 2025-09-13 15:25:24
+2025-09-13 15:25:22,346 - easytorch-training - INFO - Epoch 100 / 100
+2025-09-13 15:25:24,002 - easytorch-training - INFO - Result <train>: [train/time: 1.66 (s), train/lr: 6.25e-05, train/loss: 0.0073, train/MAE: 0.0073, train/MAPE: 0.0218, train/RMSE: 0.0120]
+2025-09-13 15:25:24,003 - easytorch-training - INFO - Start validation.
+2025-09-13 15:25:24,295 - easytorch-training - INFO - Result <val>: [val/time: 0.29 (s), val/loss: 0.0024, val/MAE: 0.0024, val/MAPE: 0.0089, val/RMSE: 0.0033]
+2025-09-13 15:25:24,312 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt saved
+2025-09-13 15:25:24,580 - easytorch-training - INFO - Result <test>: [test/time: 0.27 (s), test/loss: 0.0000, test/MAE: 0.0026, test/MAPE: 0.0131, test/RMSE: 0.0036]
+2025-09-13 15:25:24,597 - easytorch-training - INFO - Checkpoint baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_100.pt saved
+2025-09-13 15:25:24,598 - easytorch-training - INFO - The training finished at 2025-09-13 15:25:24
+2025-09-13 15:25:24,598 - easytorch-training - INFO - Evaluating the best model on the test set.
+2025-09-13 15:25:24,598 - easytorch-training - INFO - Loading Checkpoint from 'baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/STDAE_TAE_best_val_MAE.pt'
+2025-09-13 15:25:24,963 - easytorch-training - INFO - Result <test>: [test/time: 0.26 (s), test/loss: 0.0000, test/MAE: 0.0026, test/MAPE: 0.0131, test/RMSE: 0.0036]
+2025-09-13 15:25:24,964 - easytorch-training - INFO - Test metrics saved to baselines/STDAE/pretrain_save/STDAE_TAE/DanYangXinQu_5min_100_288_288_history_turn_reconstruct/297c20e7f736bb4e39deeb7b231cfd67/test_metrics.json.
