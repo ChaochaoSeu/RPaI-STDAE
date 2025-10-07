@@ -1,7 +1,7 @@
 # Ramp Flow Prediction at Highway Interchanges
 This project addresses the challenge of **ramp flow prediction** at highway interchanges, especially in environments where ramp detectors are absent. The framework is built on top of **BasicTS**, a general-purpose time-series forecasting library.  
 > ⚙️ BasicTS (by GestaltCogTeam): [https://github.com/GestaltCogTeam/BasicTS](https://github.com/GestaltCogTeam/BasicTS) 
-
+> Our paper is at https://arxiv.org/abs/2510.03381
 ## 📌 Overview
 
 - **Goal**: Predict ramp turning traffic flows using only mainline ETC (Electronic Toll Collection) data.  
